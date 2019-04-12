@@ -17,6 +17,13 @@ $ mvn clean package
 $ mvn clean install
 
 $ mvn jetty:run
+```
+### Don't forget to load the .sql file into your database.
+
+```
+$ cd Score-System/newsql/
+
+$ mysql -u root -p library < system.sql
+```
 
 http://localhost:9000
-```
